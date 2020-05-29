@@ -1,7 +1,7 @@
 # Teeworlds backup script (2.0)
 Creates a backup of your Teeworlds folder
 
-Official support sites: [Official Github Repo](https://github.com/fstltna/TeeworldsBackup) - [Official Forum](https://gameplayer.club/phpBB3/viewforum.php?f=8)  - [Official Download Area](https://gameplayer.club/index.php/downloads/category/13-teeworlds)
+Official support sites: [Official Github Repo](https://github.com/fstltna/TeeworldsBackup) - [Official Forum](https://gameplayer.club/index.php/forum/utilities)  - [Official Download Area](https://gameplayer.club/index.php/downloads/category/13-teeworlds)
 
 ---
 
