@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # Set these for your situation
-my $TEEWORLDSDATADIR = "/usr/share/games/teeworlds/data";
+my $TEEWORLDSDATADIR = "/home/twowner/twserver";
 my $BACKUPDIR = "/home/twowner/backups";
 my $TARCMD = "/bin/tar czf";
 
