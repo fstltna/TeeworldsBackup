@@ -1,14 +1,14 @@
 #!/usr/bin/perl
 
 # Set these for your situation
-my $TEEWORLDSDIR = "/root/twserver";
-my $BACKUPDIR = "/root/backups";
+my $TEEWORLDSDATADIR = "/usr/share/games/teeworlds/data";
+my $BACKUPDIR = "/home/twowner/backups";
 my $TARCMD = "/bin/tar czf";
 
 #-------------------
 # No changes below here...
 #-------------------
-my $VERSION = "1.0";
+my $VERSION = "2.0";
 
 print "Teeworlds Backup version $VERSION\n";
 print "========================\n";
@@ -40,6 +40,6 @@ if (-f "$BACKUPDIR/teeworldsnbackup-1.tgz")
 	rename("$BACKUPDIR/teeworldsnbackup-1.tgz", "$BACKUPDIR/teeworldsnbackup-2.tgz");
 }
 print "Done\nCreating New Backup: ";
-system("$TARCMD $BACKUPDIR/teeworldsnbackup-1.tgz $TEEWORLDSDIR");
+system("$TARCMD $BACKUPDIR/teeworldsnbackup-1.tgz $TEEWORLDSDATADIR");
 print("Done!\n");
 exit 0;
